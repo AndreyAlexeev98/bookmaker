@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box; }
+
+body, html {
+  height: 100%; }
+
+body, .wrapper, footer {
+  position: relative; }
+
+body {
+  font-size: rem(16px);
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+ul, p, button, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+ul > li {
+  list-style: none; }
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  line-height: 1; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1; }
+
+img, svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%; }
+
+
+
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%;
+  background-color: #e5e5e5;
+}
+
+.container {
+  margin: 10% auto;
+  max-width: 1169px;
+  width: 95%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Gotham';
+  text-transform: uppercase;
+}

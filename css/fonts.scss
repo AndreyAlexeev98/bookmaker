@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), 
+        url("../fonts/montserrat-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), 
+      url("../fonts/montserrat-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/GothamPro-Bold.woff2") format("woff2"), 
+      url("../fonts/GothamPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/*# sourceMappingURL=fonts.css.map */

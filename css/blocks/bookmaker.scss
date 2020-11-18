@@ -1,0 +1,161 @@
+.bookmaker {
+  margin-bottom: 88px;
+}
+
+.bookmaker__title {
+  margin-bottom: 27px;
+  margin-left: 7px;
+}
+
+
+.bookmaker__list,.bookmaker__item,.bookmaker__left,.bookmaker-rating,.bookmaker__right {
+  display: flex;
+}
+
+.bookmaker__list {
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.bookmaker__item {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  max-height: 71px;
+  border-radius: 5px;
+  padding: 17px 30px 14px 38px;
+  @media screen and (max-width: 970px) {
+    flex-direction: column;
+    max-height: none;
+  }
+}
+
+.bookmaker__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.bookmaker__left {
+  align-items: center;
+  @media screen and (max-width: 680px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+.bookmaker__num {
+  margin-right: 34px;
+  font-weight: 600;
+}
+
+.bookmaker-logo {
+  margin-right: 31px;
+  width: 107px;
+    height: 35px;
+}
+
+.bookmaker__name {
+  font-family: 'Montserrat';
+  margin-right: 28px;
+  font-weight: 600;
+  width: 86px;
+  height: 24px;
+}
+
+.bookmaker-rating {
+  margin-right: 63px;
+}
+
+.bookmaker-rating__wrap:not(:last-child) {
+  margin-right: 7px;
+}
+
+.bookmaker-gift {
+  margin-right: 15px;
+}
+
+
+.bookmaker-rating__wrap {
+  width: 21px;
+  height: 21px;
+}
+
+.bookmaker-rating__img {
+  flex-shrink: 0;
+}
+
+.bookmaker__gift {
+  display: flex;
+}
+
+.bookmaker__price {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-align: center;
+}
+
+.bookmaker__right {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  @media screen and (max-width: 480px) {
+    font-size: 11px;
+  }
+}
+
+
+.bookmaker__revievs,.bookmaker__inspection,.bookmaker__link {
+  margin-right: 21px;
+  padding: 12px 19px;
+  border-radius: 5px;
+  transition: background-color .5s;
+  font-family: 'Montserrat';
+  &:hover {
+    background-color: #E2855A;
+    transition: background-color .5s;
+  }
+}
+
+.bookmaker__revievs {
+  border: 1px solid #67BC6D;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
+
+.bookmaker__inspection {
+  border: 1px solid #DADADA;
+  font-family: 'Montserrat';
+}
+
+.bookmaker__link {
+  background-color: #E2455A;
+  margin-right: 0;
+  transition: background-color .5s;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+
+.container__btn {
+  margin: 0 auto;
+  display: block;
+}
+
+.btn {
+  border: 1px solid #DADADA;
+  transform: skewX(-30deg);
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color .5s;
+  text-transform: uppercase;
+  font-family: 'Gotham';
+  &:hover {
+    background-color: #E2855A;
+    transition: background-color .5s;
+  }
+}
+
+.btn__text {
+  transform: skewX(30deg);
+  display: block;
+}
